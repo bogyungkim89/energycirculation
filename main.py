@@ -38,17 +38,20 @@ html_code = """
                 <marker id="u-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
-                 <marker id="g-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
+                 <marker id="g-arrowhead" markerWidth="3.4" markerHeight="1.7" refX="1" refY="1" orient="auto">
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="green" />
                 </marker>
                  <marker id="o-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="orange" />
                 </marker>
+                <marker id="u-arrowhead-large" markerWidth="6.8" markerHeight="3.4" refX="1" refY="1" orient="auto">
+                    <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
+                </marker>
             </defs>
             <path d="M 420 188.33 L 420 280 C 420 310, 390 330, 336 330 C 282 330, 252 310, 252 280 L 252 100" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
             <text x="252" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">대기반사</text>
             <text x="252" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">25</text>
-            <path d="M 432 253.8 L 432 433.8 C 432 463.8, 381.8 493.8, 280.2 493.8 C 178.6 493.8, 128.4 463.8, 128.4 433.8 L 128.4 75.3" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead)" />
+            <path d="M 432 253.8 L 432 433.8 C 432 463.8, 381.8 493.8, 280.2 493.8 C 178.6 493.8, 128.4 463.8, 128.4 433.8 L 128.4 75.3" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead-large)" />
             <text x="128.4" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
             <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
             <path d="M 518 188.33 L 518 500" stroke="green" stroke-width="80" fill="none" marker-end="url(#g-arrowhead)" />
