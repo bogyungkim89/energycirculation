@@ -51,8 +51,8 @@ html_code = """
             <path d="M 432 253.8 L 432 433.8 C 432 463.8, 381.8 493.8, 280.2 493.8 C 178.6 493.8, 128.4 463.8, 128.4 433.8 L 128.4 75.3" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead-large)" />
             <text x="128.4" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
             <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
-            <path d="M 469 188.33 L 469 500" stroke="orange" stroke-width="64" fill="none" marker-end="url(#o-arrowhead)" />
-            <path d="M 565 188.33 L 565 500" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
+            <path d="M 517 188.33 L 517 500" stroke="orange" stroke-width="64" fill="none" marker-end="url(#o-arrowhead)" />
+            <path d="M 614 188.33 L 614 500" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
         </svg>
     </div>
 </div>
