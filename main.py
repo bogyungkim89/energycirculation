@@ -40,7 +40,7 @@ html_code = """
                 </marker>
             </defs>
             <path d="M 420 188.33 L 420 280 C 420 310, 390 330, 336 330 C 282 330, 252 310, 252 280 L 252 100" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
-            <path d="M 420 343.8 L 420 435.8 C 420 465.8, 390 485.8, 336 485.8 C 282 485.8, 252 465.8, 252 435.8 L 252 343.8" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
+            <path d="M 420 343.8 L 420 435.8 C 420 465.8, 300 485.8, 200 485.8 C 100 485.8, 0 465.8, 0 435.8 L 0 343.8" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead)" />
         </svg>
     </div>
 </div>
