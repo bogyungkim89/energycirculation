@@ -38,7 +38,7 @@ html_code = """
                 <marker id="u-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
-                 <marker id="g-arrowhead" markerWidth="3.4" markerHeight="1.7" refX="0.85" refY="0.85" orient="auto">
+                 <marker id="g-arrowhead" markerWidth="3.4" markerHeight="1.7" refX="1.7" refY="0.85" orient="auto">
                     <path d="M 0 0 L 1.7 0.85 L 0 1.7 z" fill="green" />
                 </marker>
                  <marker id="o-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
@@ -54,7 +54,7 @@ html_code = """
             <path d="M 432 253.8 L 432 433.8 C 432 463.8, 381.8 493.8, 280.2 493.8 C 178.6 493.8, 128.4 463.8, 128.4 433.8 L 128.4 75.3" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead-large)" />
             <text x="128.4" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
             <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
-            <path d="M 518 188.33 L 518 471.53" stroke="green" stroke-width="80" fill="none" marker-end="url(#g-arrowhead)" />
+            <path d="M 518 188.33 L 518 470.53" stroke="green" stroke-width="80" fill="none" marker-end="url(#g-arrowhead)" />
             <path d="M 614 188.33 L 614 500" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
         </svg>
     </div>
