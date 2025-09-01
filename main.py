@@ -8,16 +8,12 @@ st.set_page_config(layout="wide")
 # CSS를 사용하여 레이아웃 스타일링
 st.markdown("""
 <style>
-    .main-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 80vh; /* 화면 높이에 맞게 조절 */
-    }
     .simulation-box {
         width: 800px; /* 가로 800px */
         height: 400px; /* 세로 400px (2:1 비율) */
         border: 2px solid #333;
+        display: block;
+        margin: auto; /* 상자를 중앙에 배치 */
         display: flex;
         flex-direction: column;
     }
@@ -46,9 +42,6 @@ st.markdown("""
 </style>
 """, unsafe_allow_html=True)
 
-# 메인 컨테이너
-st.markdown('<div class="main-container">', unsafe_allow_html=True)
-
 # 시뮬레이션 상자
 st.markdown('<div class="simulation-box">', unsafe_allow_html=True)
 
@@ -61,5 +54,4 @@ st.markdown('<div class="atmosphere">대기</div>', unsafe_allow_html=True)
 # 지표 (시뮬레이션 상자 내부)
 st.markdown('<div class="surface">지표</div>', unsafe_allow_html=True)
 
-st.markdown('</div>', unsafe_allow_html=True)
 st.markdown('</div>', unsafe_allow_html=True)
