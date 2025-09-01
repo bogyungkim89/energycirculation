@@ -30,15 +30,13 @@ html_code = """
 
         <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
             <defs>
-                <marker id="u-arrowhead" markerWidth="20" markerHeight="10" refX="2" refY="5" orient="auto">
-                    <path d="M 0 0 L 10 5 L 0 10 z" fill="yellow" />
+                <marker id="u-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
+                    <path d="M 0 0 L 2 1 L 0 2 z" fill="yellow" />
                 </marker>
             </defs>
 
-            
-<path d="M 330 250 Q 280 300, 300 354 Q 320 408, 330 458" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
-            
-<path d="M 330 458 Q 280 480, 300 500 Q 320 520, 330 540" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
+            <path d="M 330 250 Q 280 300, 300 354 Q 320 408, 330 458" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
+            <path d="M 330 458 Q 280 480, 300 500 Q 320 520, 330 540" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
         </svg>
     </div>
 </div>
