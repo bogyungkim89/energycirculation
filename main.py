@@ -1,5 +1,8 @@
 import streamlit as st
 
+# 웹 앱 제목 설정
+st.title("☀️ 지구 복사 에너지 시뮬레이션")
+
 st.set_page_config(layout="wide")
 
 # CSS를 사용하여 레이아웃 스타일링
@@ -22,9 +25,11 @@ st.markdown("""
         display: flex;
         justify-content: center;
         align-items: center;
+        font-size: 24px;
         font-weight: bold;
         color: white;
         text-shadow: 1px 1px 2px black;
+        text-align: center;
     }
     .space {
         background-color: #000033; /* 짙은 남색 */
@@ -47,13 +52,13 @@ st.markdown('<div class="main-container">', unsafe_allow_html=True)
 # 시뮬레이션 상자
 st.markdown('<div class="simulation-box">', unsafe_allow_html=True)
 
-# 우주 (위)
+# 우주 (시뮬레이션 상자 내부)
 st.markdown('<div class="space">우주</div>', unsafe_allow_html=True)
 
-# 대기 (중간)
+# 대기 (시뮬레이션 상자 내부)
 st.markdown('<div class="atmosphere">대기</div>', unsafe_allow_html=True)
 
-# 지표 (아래)
+# 지표 (시뮬레이션 상자 내부)
 st.markdown('<div class="surface">지표</div>', unsafe_allow_html=True)
 
 st.markdown('</div>', unsafe_allow_html=True)
