@@ -38,8 +38,8 @@ html_code = """
                 <marker id="u-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
-                 <marker id="g-arrowhead" markerWidth="3.4" markerHeight="1.7" refX="1" refY="1" orient="auto">
-                    <path d="M 0 0 L 2 1 L 0 2 z" fill="green" />
+                 <marker id="g-arrowhead" markerWidth="3.4" markerHeight="1.7" refX="0.85" refY="0.85" orient="auto">
+                    <path d="M 0 0 L 1.7 0.85 L 0 1.7 z" fill="green" />
                 </marker>
                  <marker id="o-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="orange" />
