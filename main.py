@@ -58,7 +58,7 @@ html_code = """
                 <img src="https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.png" width="150" height="100" style="pointer-events: auto;">
             </foreignObject>
 
-            <path d="M 614 420 L 614 500" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
+            <path d="M 689 420 L 689 500" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
         </svg>
     </div>
 </div>
