@@ -13,9 +13,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# 이미지 주소를 새로운 .png 파일로 변경했습니다.
-st.image("https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.png", width=200)
-
 html_code = """
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
     <div style="width: 1200px; height: 600px; display: flex; flex-direction: column; position: relative; overflow: hidden;">
@@ -56,6 +53,10 @@ html_code = """
             <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
             <path d="M 517 188.33 L 517 500" stroke="orange" stroke-width="64" fill="none" marker-end="url(#o-arrowhead)" />
             <path d="M 614 188.33 L 614 344.165" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
+
+            <foreignObject x="564" y="280" width="100" height="100">
+                <img src="https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.png" width="100" height="100" style="pointer-events: auto;">
+            </foreignObject>
         </svg>
     </div>
 </div>
