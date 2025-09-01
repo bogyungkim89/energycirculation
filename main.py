@@ -44,6 +44,9 @@ html_code = """
                 <marker id="u-arrowhead-large" markerWidth="6.8" markerHeight="3.4" refX="1" refY="1" orient="auto">
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
+                <marker id="p-arrowhead" markerWidth="4" markerHeight="2" refX="1" refY="1" orient="auto">
+                    <path d="M 0 0 L 2 1 L 0 2 z" fill="pink" />
+                </marker>
             </defs>
             <path d="M 420 188.33 L 420 280 C 420 310, 390 330, 336 330 C 282 330, 252 310, 252 280 L 252 100" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
             <text x="252" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">대기반사</text>
@@ -59,6 +62,8 @@ html_code = """
             </foreignObject>
 
             <path d="M 689 420 L 689 500" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
+
+            <path d="M 700 550 L 900 550 L 900 400" stroke="pink" stroke-width="20" fill="none" marker-end="url(#p-arrowhead)" />
         </svg>
     </div>
 </div>
