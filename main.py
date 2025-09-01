@@ -26,10 +26,10 @@ html_code = """
                 <div id="yellow-arrowhead" style="width: 0; height: 0; border-left: 140px solid transparent; border-right: 140px solid transparent; border-top: 70px solid yellow; margin-top: -10px;"></div>
             </div>
         </div>
-        <div style="flex: 1.4; background-color: #CEEBF0; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; position: relative; z-index: 1;">
+        <div style="flex: 1.4; background-color: #CEEBF0; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: #302C44; position: relative; z-index: 1;">
             대기
         </div>
-        <div style="height: 100px; background-color: #ABC53C; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; position: relative; z-index: 1;">
+        <div style="height: 100px; background-color: #ABC53C; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: #302C44; position: relative; z-index: 1;">
             지표
         </div>
 
@@ -40,7 +40,7 @@ html_code = """
                 </marker>
             </defs>
             <path d="M 420 188.33 L 420 280 C 420 310, 390 330, 336 330 C 282 330, 252 310, 252 280 L 252 100" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
-            <path d="M 420 343.8 L 420 460 C 420 500, 380 520, 298.2 520 C 216.4 520, 176.4 500, 176.4 460 L 176.4 300" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead)" />
+            <path d="M 420 283.8 L 420 463.8 C 420 493.8, 380 523.8, 298.2 523.8 C 216.4 523.8, 176.4 493.8, 176.4 463.8 L 176.4 283.8" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead)" />
         </svg>
     </div>
 </div>
