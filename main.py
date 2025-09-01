@@ -18,7 +18,7 @@ html_code = """
     <div style="width: 1200px; height: 600px; display: flex; flex-direction: column; position: relative; overflow: hidden;">
         <div style="flex: 1; background-color: #302C44; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: white; position: relative; z-index: 1;">
             우주
-            <div style="position: absolute; left: calc(50% - 15% + 2%); top: 0; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; align-items: center;">
+            <div style="position: absolute; left: calc(50% - 15% + 2% + 3px); top: 0; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
                 <div style="width: 160px; height: 120px; background-color: yellow; display: flex; flex-direction: column; justify-content: center; align-items: center;">
                     <span style="font-size: 24px; font-weight: bold; color: #302C44;">태양복사</span>
                     <span style="font-size: 20px; color: #302C44;">100</span>
@@ -48,7 +48,6 @@ html_code = """
             <path d="M 432 253.8 L 432 433.8 C 432 463.8, 381.8 493.8, 280.2 493.8 C 178.6 493.8, 128.4 463.8, 128.4 433.8 L 128.4 75.3" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead)" />
             <text x="128.4" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
             <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
-            
             <path d="M 480 188.33 L 480 500" stroke="green" stroke-width="40" fill="none" marker-end="url(#g-arrowhead)" />
         </svg>
     </div>
