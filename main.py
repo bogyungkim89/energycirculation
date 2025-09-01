@@ -34,9 +34,8 @@ html_code = """
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="yellow" />
                 </marker>
             </defs>
-
-            <path d="M 330 250 Q 280 300, 300 354 Q 320 408, 330 458" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
-            <path d="M 330 458 Q 280 480, 300 500 Q 320 520, 330 540" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
+            <path d="M 400 300 Q 300 360, 200 300 Q 100 240, 0 300" stroke="yellow" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 200, 300)" />
+            <path d="M 400 520 Q 300 580, 200 520 Q 100 460, 0 520" stroke="yellow" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 200, 520)" />
         </svg>
     </div>
 </div>
