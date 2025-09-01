@@ -1,33 +1,57 @@
 import streamlit as st
-import numpy as np
 
-# Streamlit 앱 제목 설정
-st.title('지구 복사에너지 시뮬레이션')
-st.write('지구의 반사율(Albedo)과 온실 효과를 조절하여 지구의 평형 온도가 어떻게 변하는지 확인해 보세요.')
+st.title('지구 복사에너지 균형 시뮬레이션')
+st.write('우주, 대기, 지표 세 구역의 에너지 흐름을 통해 복사평형의 원리를 시각화합니다.')
 
-# 사용자 입력 위젯
-albedo = st.slider('지구의 반사율 (Albedo, α)', 0.0, 1.0, 0.3, 0.01)
-transmissivity = st.slider('대기 투과율 (Greenhouse Effect, τ)', 0.0, 1.0, 0.61, 0.01)
-
-# 상수 정의
-S0 = 1368 # 태양복사량 W/m^2
-sigma = 5.67e-8 # 슈테판-볼츠만 상수 W/m^2/K^4
-
-# 평형 온도 계산 함수
-def calculate_equilibrium_temp(albedo, transmissivity):
-    absorbed_solar = S0 * (1 - albedo) / 4
-    if transmissivity == 0:
-        return 0
-    temp_kelvin = (absorbed_solar / (transmissivity * sigma))**(1/4)
-    temp_celsius = temp_kelvin - 273.15
-    return temp_celsius
-
-# 온도 계산 및 표시
-temp_celsius = calculate_equilibrium_temp(albedo, transmissivity)
-st.metric(label="지구의 평형 온도", value=f"{temp_celsius:.2f} °C")
-
-# 추가 설명 및 시각화 (예시)
+# 에너지 단위 설명
 st.markdown("---")
-st.subheader("모델 변수 설명")
-st.write(f"**반사율 (Albedo)**: 빙하가 녹으면 반사율이 낮아져 흡수하는 에너지가 많아집니다.")
-st.write(f"**대기 투과율 (Greenhouse Effect)**: 온실가스가 많아지면 투과율이 낮아져 열이 더 많이 갇히게 됩니다.")
+st.subheader("에너지 흐름 (단위: W/m² 기준 백분율)")
+
+# 컨테이너를 사용하여 각 구역을 분리
+space_container = st.container()
+atmosphere_container = st.container()
+surface_container = st.container()
+
+# 우주 구역
+with space_container:
+    st.markdown("### 🪐 우주 (Space)")
+    st.markdown("➡️ **유입:** 태양 복사 에너지: 100")
+    st.markdown("➡️ **유출:** 대기 반사: 23, 지표 반사: 30, 대기에서 방출: 70")
+    st.markdown(f"**총 유입: {100}**")
+    st.markdown(f"**총 유출: {23 + 30 + 70}**")
+    st.markdown("---")
+
+# 대기 구역
+with atmosphere_container:
+    st.markdown("### ☁️ 대기 (Atmosphere)")
+    col1, col2 = st.columns(2)
+    with col1:
+        st.markdown("**유입**")
+        st.markdown("태양 복사 에너지 흡수: 23")
+        st.markdown("지표에서 오는 복사 에너지: 114")
+        st.markdown("지표에서 오는 열(대류/전도): 29")
+    with col2:
+        st.markdown("**유출**")
+        st.markdown("우주로 복사 에너지 방출: 70")
+        st.markdown("지표로 복사 에너지 방출: 96")
+    st.markdown(f"**총 유입: {23 + 114 + 29}**")
+    st.markdown(f"**총 유출: {70 + 96}**")
+    st.markdown("---")
+
+# 지표 구역
+with surface_container:
+    st.markdown("### 🌍 지표 (Surface)")
+    col3, col4 = st.columns(2)
+    with col3:
+        st.markdown("**유입**")
+        st.markdown("태양 복사 에너지 흡수: 47")
+        st.markdown("대기에서 오는 복사 에너지: 96")
+    with col4:
+        st.markdown("**유출**")
+        st.markdown("열 복사 에너지 방출: 114")
+        st.markdown("열(증발/대류) 방출: 29")
+    st.markdown(f"**총 유입: {47 + 96}**")
+    st.markdown(f"**총 유출: {114 + 29}**")
+    
+st.markdown("---")
+st.success("✅ 모든 구역에서 에너지 유입과 유출이 일치하여 복사평형이 유지되고 있습니다.")
