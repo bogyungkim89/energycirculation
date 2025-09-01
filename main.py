@@ -18,7 +18,7 @@ html_code = """
     <div style="width: 1200px; height: 600px; display: flex; flex-direction: column;">
         <div style="flex: 1; background-color: #302C44; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: white; position: relative;">
             우주
-            <div style="position: absolute; left: 50%; top: 0; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; align-items: center;">
+            <div style="position: absolute; left: calc(50% - 15%); top: 0; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; align-items: center;">
                 <div style="width: 160px; height: 120px; background-color: yellow;"></div> <div style="width: 0; height: 0; border-left: 140px solid transparent; border-right: 140px solid transparent; border-top: 70px solid yellow; margin-top: -10px;"></div> </div>
         </div>
         <div style="flex: 1.4; background-color: #CEEBF0; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px;">
