@@ -15,23 +15,31 @@ st.markdown(
 
 html_code = """
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-    <div style="width: 1200px; height: 600px; display: flex; flex-direction: column;">
-        <div style="flex: 1; background-color: #302C44; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: white; position: relative;">
+    <div style="width: 1200px; height: 600px; display: flex; flex-direction: column; position: relative; overflow: hidden;">
+        <div style="flex: 1; background-color: #302C44; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: white; position: relative; z-index: 1;">
             우주
             <div style="position: absolute; left: calc(50% - 15%); top: 0; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; align-items: center;">
-                <div style="width: 160px; height: 120px; background-color: yellow; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-                    <span style="font-size: 24px; font-weight: bold; color: #302C44;">태양복사</span>
-                    <span style="font-size: 20px; color: #302C44;">100</span>
-                </div>
-                <div style="width: 0; height: 0; border-left: 140px solid transparent; border-right: 140px solid transparent; border-top: 70px solid yellow; margin-top: -10px;"></div>
-            </div>
+                <div style="width: 160px; height: 120px; background-color: yellow;"></div> <div style="width: 0; height: 0; border-left: 140px solid transparent; border-right: 140px solid transparent; border-top: 70px solid yellow; margin-top: -10px;"></div> </div>
         </div>
-        <div style="flex: 1.4; background-color: #CEEBF0; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px;">
+        <div style="flex: 1.4; background-color: #CEEBF0; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; position: relative; z-index: 1;">
             대기
         </div>
-        <div style="height: 100px; background-color: #ABC53C; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px;">
+        <div style="height: 100px; background-color: #ABC53C; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; position: relative; z-index: 1;">
             지표
         </div>
+
+        <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
+            <defs>
+                <marker id="u-arrowhead" markerWidth="20" markerHeight="10" refX="2" refY="5" orient="auto">
+                    <path d="M 0 0 L 10 5 L 0 10 z" fill="yellow" />
+                </marker>
+            </defs>
+
+            
+<path d="M 330 250 Q 280 300, 300 354 Q 320 408, 330 458" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
+            
+<path d="M 330 458 Q 280 480, 300 500 Q 320 520, 330 540" stroke="yellow" stroke-width="20" fill="none" marker-start="url(#u-arrowhead)" />
+        </svg>
     </div>
 </div>
 """
