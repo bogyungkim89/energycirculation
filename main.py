@@ -30,8 +30,8 @@ html_code = """
         }
     }
     .animated-arrow {
-        animation: drawArrow 3s ease-out forwards; /* 3초 동안 부드럽게 애니메이션 */
-        animation-delay: 1s; /* 1초 후에 애니메이션 시작 */
+        animation: drawArrow 3s ease-out forwards;
+        animation-delay: 1s;
     }
 </style>
 
