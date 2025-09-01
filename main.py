@@ -18,7 +18,7 @@ html_code = """
     <div style="width: 1200px; height: 600px; display: flex; flex-direction: column; position: relative; overflow: hidden;">
         <div style="flex: 1; background-color: #302C44; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: white; position: relative; z-index: 1;">
             우주
-            <div style="position: absolute; left: calc(50% - 15% + 2% + 3px); top: 0; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <div style="position: absolute; left: calc(50% - 15% + 2% + 3px); top: -10px; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
                 <div style="width: 160px; height: 120px; background-color: yellow; display: flex; flex-direction: column; justify-content: center; align-items: center;">
                     <span style="font-size: 24px; font-weight: bold; color: #302C44;">태양복사</span>
                     <span style="font-size: 20px; color: #302C44;">100</span>
