@@ -13,6 +13,9 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+# GitHub 이미지 주소를 사용하여 구름 이미지를 삽입합니다.
+st.image("https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.jpg", width=200)
+
 html_code = """
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
     <div style="width: 1200px; height: 600px; display: flex; flex-direction: column; position: relative; overflow: hidden;">
