@@ -43,8 +43,8 @@ html_code = """
             <text x="252" y="75" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">대기반사</text>
             <text x="252" y="100" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">25</text>
             <path d="M 432 253.8 L 432 433.8 C 432 463.8, 381.8 493.8, 280.2 493.8 C 178.6 493.8, 128.4 463.8, 128.4 433.8 L 128.4 75.3" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead)" />
-            <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
-            <text x="128.4" y="75.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
+            <text x="128.4" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
+            <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
         </svg>
     </div>
 </div>
