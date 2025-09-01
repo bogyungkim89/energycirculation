@@ -39,7 +39,7 @@ html_code = """
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
             </defs>
-            <path d="M 420 188.33 L 420 300 A 20 20 0 0 1 400 320 Q 280 340, 200 320 A 20 20 0 0 1 180 300 L 180 188.33" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
+            <path d="M 420 188.33 L 420 300 A 20 20 0 0 1 400 320 Q 352 340, 272 320 A 20 20 0 0 1 252 300 L 252 188.33" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
             <path d="M 400 520 Q 300 580, 200 520 Q 100 460, 0 520" stroke="blue" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 200, 520)" />
         </svg>
     </div>
