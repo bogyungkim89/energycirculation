@@ -23,7 +23,7 @@ html_code = """
                     <span style="font-size: 24px; font-weight: bold; color: #302C44;">태양복사</span>
                     <span style="font-size: 20px; color: #302C44;">100</span>
                 </div>
-                <div style="width: 0; height: 0; border-left: 140px solid transparent; border-right: 140px solid transparent; border-top: 70px solid yellow; margin-top: -10px;"></div>
+                <div id="yellow-arrowhead" style="width: 0; height: 0; border-left: 140px solid transparent; border-right: 140px solid transparent; border-top: 70px solid yellow; margin-top: -10px;"></div>
             </div>
         </div>
         <div style="flex: 1.4; background-color: #CEEBF0; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; position: relative; z-index: 1;">
@@ -39,7 +39,7 @@ html_code = """
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
             </defs>
-            <path d="M 400 300 Q 300 360, 200 300 Q 100 240, 0 300" stroke="blue" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 200, 300)" />
+            <path d="M 440 188.33 Q 340 248.33, 240 188.33 Q 140 128.33, 40 188.33" stroke="blue" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 240, 188.33)" />
             <path d="M 400 520 Q 300 580, 200 520 Q 100 460, 0 520" stroke="blue" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 200, 520)" />
         </svg>
     </div>
