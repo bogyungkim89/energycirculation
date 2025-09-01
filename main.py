@@ -19,15 +19,10 @@ html_code = """
         <div style="flex: 1; background-color: #f0f8ff; border-bottom: 2px solid black; display: flex; justify-content: center; align-items: center; font-size: 30px;">
             상단 영역
         </div>
-        <div style="flex: 1; background-color: #f5fffa; display: flex; flex-direction: column;">
-            <div style="flex: 1; display: flex; justify-content: center; align-items: center; font-size: 30px;">
-                중간 영역
-            </div>
-            <svg width="100%" height="300px" viewBox="0 0 1200 300" preserveAspectRatio="none">
-                <path d="M0,300 Q600,0 1200,300 L1200,300 L0,300 Z" fill="#ABC53C" stroke="none"/>
-            </svg>
+        <div style="flex: 1; background-color: #f5fffa; border-bottom: 2px solid black; display: flex; justify-content: center; align-items: center; font-size: 30px;">
+            중간 영역
         </div>
-        <div style="height: 100px; background-color: #ABC53C; display: flex; justify-content: center; align-items: center; font-size: 30px; margin-top: -300px;">
+        <div style="height: 100px; background-color: #ABC53C; display: flex; justify-content: center; align-items: center; font-size: 30px;">
             하단 영역
         </div>
     </div>
