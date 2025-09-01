@@ -23,11 +23,11 @@ html_code = """
             <div style="flex: 1; display: flex; justify-content: center; align-items: center; font-size: 30px;">
                 중간 영역
             </div>
-            <svg width="100%" height="60px" viewBox="0 0 1200 60" preserveAspectRatio="none">
-                <path d="M0,60 Q600,0 1200,60 L1200,60 L0,60 Z" fill="#ABC53C" stroke="none"/>
+            <svg width="100%" height="300px" viewBox="0 0 1200 300" preserveAspectRatio="none">
+                <path d="M0,300 Q600,0 1200,300 L1200,300 L0,300 Z" fill="#ABC53C" stroke="none"/>
             </svg>
         </div>
-        <div style="flex: 1; background-color: #ABC53C; display: flex; justify-content: center; align-items: center; font-size: 30px; margin-top: -60px;">
+        <div style="height: 100px; background-color: #ABC53C; display: flex; justify-content: center; align-items: center; font-size: 30px; margin-top: -300px;">
             하단 영역
         </div>
     </div>
