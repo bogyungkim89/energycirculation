@@ -49,7 +49,7 @@ html_code = """
             <text x="128.4" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
             <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
             
-            <path d="M 500 200 L 500 300 C 500 330, 470 350, 416 350 C 362 350, 332 330, 332 300 L 332 120" stroke="green" stroke-width="40" fill="none" marker-end="url(#g-arrowhead)" />
+            <path d="M 700 300 L 700 500" stroke="green" stroke-width="40" fill="none" marker-end="url(#g-arrowhead)" />
         </svg>
     </div>
 </div>
