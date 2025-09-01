@@ -63,7 +63,7 @@ html_code = """
 
             <path d="M 689 420 L 689 500" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
 
-            <path d="M 700 550 L 900 550 L 900 400" stroke="pink" stroke-width="20" fill="none" marker-end="url(#p-arrowhead)" />
+            <path d="M 700 550 L 900 550 L 900 250" stroke="pink" stroke-width="20" fill="none" marker-end="url(#p-arrowhead)" />
         </svg>
     </div>
 </div>
