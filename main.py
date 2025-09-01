@@ -15,7 +15,7 @@ st.markdown(
 
 html_code = """
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-    <div style="width: 1200px; height: 600px; display: flex; flex-direction: column; position: relative; overflow: hidden;">
+    <div style="width: 1200px; height: 600px; display: flex; flex-direction: column;">
         <div style="flex: 1; background-color: #302C44; display: flex; justify-content: flex-start; align-items: center; font-size: 21px; padding-left: 20px; color: white; position: relative; z-index: 1;">
             우주
             <div style="position: absolute; left: calc(50% - 15%); top: 0; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; align-items: center;">
@@ -39,7 +39,7 @@ html_code = """
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
             </defs>
-            <path d="M 420 188.33 Q 320 250, 220 188.33 Q 120 128.33, 20 188.33" stroke="blue" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 220, 188.33)" />
+            <path d="M 420 188.33 Q 520 250, 620 188.33 Q 720 128.33, 820 188.33" stroke="blue" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="scale(-1, 1) translate(-820, 0)" />
             <path d="M 400 520 Q 300 580, 200 520 Q 100 460, 0 520" stroke="blue" stroke-width="20" fill="none" marker-end="url(#u-arrowhead)" transform="rotate(180, 200, 520)" />
         </svg>
     </div>
