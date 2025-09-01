@@ -58,6 +58,13 @@ html_code = """
                 <img src="https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.png" width="150" height="100" style="pointer-events: auto;">
             </foreignObject>
         </svg>
+        <div style="position: absolute; left: 517px; top: -7px; transform: translateX(-50%); height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+            <div style="width: 160px; height: 120px; background-color: yellow; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+                <span style="font-size: 24px; font-weight: bold; color: #302C44;">태양복사</span>
+                <span style="font-size: 20px; color: #302C44;">100</span>
+            </div>
+            <div id="yellow-arrowhead" style="width: 0; height: 0; border-left: 140px solid transparent; border-right: 140px solid transparent; border-top: 70px solid yellow; margin-top: -10px;"></div>
+        </div>
     </div>
 </div>
 """
