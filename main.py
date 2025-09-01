@@ -54,8 +54,8 @@ html_code = """
             <path d="M 517 188.33 L 517 500" stroke="orange" stroke-width="64" fill="none" marker-end="url(#o-arrowhead)" />
             <path d="M 614 188.33 L 614 344.165" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
 
-            <foreignObject x="564" y="280" width="100" height="100">
-                <img src="https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.png" width="100" height="100" style="pointer-events: auto;">
+            <foreignObject x="644" y="280" width="150" height="100">
+                <img src="https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.png" width="150" height="100" style="pointer-events: auto;">
             </foreignObject>
         </svg>
     </div>
