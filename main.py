@@ -15,16 +15,22 @@ st.markdown(
 
 html_code = """
 <style>
-    @keyframes extendArrow {
+    @keyframes drawArrow {
         0% {
             stroke-dasharray: 0 1000;
+            opacity: 0;
+        }
+        50% {
+            stroke-dasharray: 1000 0;
+            opacity: 1;
         }
         100% {
             stroke-dasharray: 1000 0;
+            opacity: 1;
         }
     }
     .animated-arrow {
-        animation: extendArrow 3s ease-out forwards; /* 3초 동안 부드럽게 애니메이션 */
+        animation: drawArrow 3s ease-out forwards; /* 3초 동안 부드럽게 애니메이션 */
         animation-delay: 1s; /* 1초 후에 애니메이션 시작 */
     }
 </style>
@@ -44,15 +50,15 @@ html_code = """
         <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
             <path class="animated-arrow"
                   d="M 600 0 L 526 198.33"
-                  stroke="red"
-                  stroke-width="20"
-                  stroke-linecap="round"
+                  stroke="yellow"
+                  stroke-width="200"
+                  stroke-linecap="butt"
                   marker-end="url(#arrowhead)"
                   fill="none" />
 
             <defs>
-                <marker id="arrowhead" markerWidth="20" markerHeight="20" refX="10" refY="5" orient="auto">
-                    <path d="M 0 0 L 10 5 L 0 10 z" fill="red" />
+                <marker id="arrowhead" markerWidth="40" markerHeight="40" refX="20" refY="20" orient="auto">
+                    <path d="M 0 0 L 40 20 L 0 40 z" fill="yellow" />
                 </marker>
             </defs>
         </svg>
