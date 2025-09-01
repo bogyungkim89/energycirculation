@@ -49,16 +49,16 @@ html_code = """
 
         <svg style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 2;">
             <path class="animated-arrow"
-                  d="M 600 0 L 526 198.33"
+                  d="M 600 0 L 533.4 178.5"
                   stroke="yellow"
-                  stroke-width="200"
+                  stroke-width="180"
                   stroke-linecap="butt"
                   marker-end="url(#arrowhead)"
                   fill="none" />
 
             <defs>
-                <marker id="arrowhead" markerWidth="40" markerHeight="40" refX="20" refY="20" orient="auto">
-                    <path d="M 0 0 L 40 20 L 0 40 z" fill="yellow" />
+                <marker id="arrowhead" markerWidth="36" markerHeight="36" refX="18" refY="18" orient="auto">
+                    <path d="M 0 0 L 36 18 L 0 36 z" fill="yellow" />
                 </marker>
             </defs>
         </svg>
