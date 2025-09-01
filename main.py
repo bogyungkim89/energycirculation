@@ -45,4 +45,20 @@ html_code = """
                     <path d="M 0 0 L 2 1 L 0 2 z" fill="blue" />
                 </marker>
             </defs>
-            <path d="M 420 188.
+            <path d="M 420 188.33 L 420 280 C 420 310, 390 330, 336 330 C 282 330, 252 310, 252 280 L 252 100" stroke="blue" stroke-width="40" fill="none" marker-end="url(#u-arrowhead)" />
+            <text x="252" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">대기반사</text>
+            <text x="252" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">25</text>
+            <path d="M 432 253.8 L 432 433.8 C 432 463.8, 381.8 493.8, 280.2 493.8 C 178.6 493.8, 128.4 463.8, 128.4 433.8 L 128.4 75.3" stroke="blue" stroke-width="13.33" fill="none" marker-end="url(#u-arrowhead-large)" />
+            <text x="128.4" y="25.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">지표반사</text>
+            <text x="128.4" y="50.3" font-family="Arial" font-size="20" fill="white" text-anchor="middle" font-weight="bold">5</text>
+            <path d="M 517 188.33 L 517 500" stroke="orange" stroke-width="64" fill="none" marker-end="url(#o-arrowhead)" />
+            <path d="M 614 188.33 L 614 344.165" stroke="orange" stroke-width="32" fill="none" marker-end="url(#o-arrowhead)" />
+
+            <foreignObject x="614" y="320" width="150" height="100">
+                <img src="https://raw.githubusercontent.com/bogyungkim89/energycirculation/main/cloud%20image.png" width="150" height="100" style="pointer-events: auto;">
+            </foreignObject>
+        </svg>
+    </div>
+</div>
+"""
+st.components.v1.html(html_code, height=600)
